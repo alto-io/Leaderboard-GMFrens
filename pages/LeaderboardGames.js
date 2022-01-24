@@ -63,7 +63,7 @@ function LeaderboardGames() {
                   <td className="px-3 py-4 whitespace-nowrap">
                     <div className="flex items-center">
                       <div className="flex-shrink-0 h-14 w-10">
-                        <img className="h-14 w-10 rounded-md object-cover" src="https://triska.js13kgames.com/triska-play.png" alt="NFT" />
+                        <img className="h-14 w-10 rounded-md object-cover" src="https://miro.medium.com/max/1400/1*wWkPJmoKfeb1AkKcHJX8QQ.png" alt="NFT" />
                       </div>
                       <div className="ml-4">
                         <div className="text-md font-medium text-gray-900 dark:text-white">

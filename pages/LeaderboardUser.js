@@ -24,9 +24,6 @@ function LeaderboardUser() {
                   <th scope="col" className="px-3 py-3 text-left text-xs font-medium text-gray-500 dark:text-white  uppercase tracking-wider">
                     Role
                   </th>
-                  <th scope="col" className="relative px-3 py-3">
-                    <span className="sr-only">Edit</span>
-                  </th>
                 </tr>
               </thead>
               <tbody className="bg-white dark:bg-slate-600 divide-y divide-gray-200 dark:divide-sky-700">
@@ -62,9 +59,6 @@ function LeaderboardUser() {
                   <td className="px-3 py-4 whitespace-nowrap text-sm text-gray-500 dark:text-white">
                     Player
                   </td>
-                  <td className="px-3 py-4 whitespace-nowrap text-right text-sm font-medium">
-                    <a href="#" className="text-fuchsia-600 hover:text-fuchsia-900">Edit</a>
-                  </td>
                   </tr>
                   <tr className='hover:cursor-pointer dark:hover:bg-slate-500 hover:bg-slate-100 transition duration-500'>
                     <td className="px-3 py-4 whitespace-nowrap">
@@ -97,9 +91,6 @@ function LeaderboardUser() {
                   </td>
                   <td className="px-3 py-4 whitespace-nowrap text-sm text-gray-500 dark:text-white">
                     Player
-                  </td>
-                  <td className="px-3 py-4 whitespace-nowrap text-right text-sm font-medium">
-                    <a href="#" className="text-fuchsia-600 hover:text-fuchsia-900">Edit</a>
                   </td>
                   </tr> 
               </tbody>
