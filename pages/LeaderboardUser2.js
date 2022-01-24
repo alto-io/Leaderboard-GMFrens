@@ -7,7 +7,7 @@ export default function LeaderboardUser2() {
             <div className='flex relative overflow-hidden rounded-xl h-56 w-48'>
                 <img className="w-full object-cover" src="https://miro.medium.com/freeze/max/400/1*pV9N31p79ImmhIsNR9v_rA.gif" />
                 {/* Top Element */}
-                <div className='flex flex-col absolute bg-white dark:bg-slate-600 w-full h-[12%] top-0 p-1 px-2 pb-2'>
+                <div className='flex flex-col absolute bg-white dark:bg-slate-600 w-full h-[14%] top-0 p-1 px-2 pb-2'>
                     <div className='flex justify-between'>
                         <p className='mr-2'># 5</p>
                         <p className='truncate'>@UserName</p>
@@ -26,7 +26,7 @@ export default function LeaderboardUser2() {
             <div className='flex relative overflow-hidden rounded-xl h-56 w-48'>
                 <img className="w-full object-cover" src="https://miro.medium.com/freeze/max/400/1*pV9N31p79ImmhIsNR9v_rA.gif" />
                 {/* Top Element */}
-                <div className='flex flex-col absolute bg-white dark:bg-slate-600 w-full h-[12%] top-0 p-1 px-2 pb-2'>
+                <div className='flex flex-col absolute bg-white dark:bg-slate-600 w-full h-[14%] top-0 p-1 px-2 pb-2'>
                     <div className='flex justify-between'>
                         <p className='mr-2'># 5</p>
                         <p className='truncate'>@UserName</p>
@@ -45,7 +45,7 @@ export default function LeaderboardUser2() {
             <div className='flex relative overflow-hidden rounded-xl h-56 w-48'>
                 <img className="w-full object-cover" src="https://miro.medium.com/freeze/max/400/1*pV9N31p79ImmhIsNR9v_rA.gif" />
                 {/* Top Element */}
-                <div className='flex flex-col absolute bg-white dark:bg-slate-600 w-full h-[12%] top-0 p-1 px-2 pb-2'>
+                <div className='flex flex-col absolute bg-white dark:bg-slate-600 w-full h-[14%] top-0 p-1 px-2 pb-2'>
                     <div className='flex justify-between'>
                         <p className='mr-2'># 5</p>
                         <p className='truncate'>@UserName</p>
@@ -64,7 +64,7 @@ export default function LeaderboardUser2() {
             <div className='flex relative overflow-hidden rounded-xl h-56 w-48'>
                 <img className="w-full object-cover" src="https://miro.medium.com/freeze/max/400/1*pV9N31p79ImmhIsNR9v_rA.gif" />
                 {/* Top Element */}
-                <div className='flex flex-col absolute bg-white dark:bg-slate-600 w-full h-[12%] top-0 p-1 px-2 pb-2'>
+                <div className='flex flex-col absolute bg-white dark:bg-slate-600 w-full h-[14%] top-0 p-1 px-2 pb-2'>
                     <div className='flex justify-between'>
                         <p className='mr-2'># 5</p>
                         <p className='truncate'>@UserName</p>
@@ -83,7 +83,7 @@ export default function LeaderboardUser2() {
             <div className='flex relative overflow-hidden rounded-xl h-56 w-48'>
                 <img className="w-full object-cover" src="https://miro.medium.com/freeze/max/400/1*pV9N31p79ImmhIsNR9v_rA.gif" />
                 {/* Top Element */}
-                <div className='flex flex-col absolute bg-white dark:bg-slate-600 w-full h-[12%] top-0 p-1 px-2 pb-2'>
+                <div className='flex flex-col absolute bg-white dark:bg-slate-600 w-full h-[14%] top-0 p-1 px-2 pb-2'>
                     <div className='flex justify-between'>
                         <p className='mr-2'># 5</p>
                         <p className='truncate'>@UserName</p>
@@ -102,7 +102,7 @@ export default function LeaderboardUser2() {
             <div className='flex relative overflow-hidden rounded-xl h-56 w-48'>
                 <img className="w-full object-cover" src="https://miro.medium.com/freeze/max/400/1*pV9N31p79ImmhIsNR9v_rA.gif" />
                 {/* Top Element */}
-                <div className='flex flex-col absolute bg-white dark:bg-slate-600 w-full h-[12%] top-0 p-1 px-2 pb-2'>
+                <div className='flex flex-col absolute bg-white dark:bg-slate-600 w-full h-[14%] top-0 p-1 px-2 pb-2'>
                     <div className='flex justify-between'>
                         <p className='mr-2'># 5</p>
                         <p className='truncate'>@UserName</p>

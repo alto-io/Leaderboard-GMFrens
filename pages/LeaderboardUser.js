@@ -29,12 +29,12 @@ function LeaderboardUser() {
               <tbody className="bg-white dark:bg-slate-600 divide-y divide-gray-200 dark:divide-sky-700">
                   <tr className='hover:cursor-pointer dark:hover:bg-slate-500 hover:bg-slate-100 transition duration-500'>
                     <td className="px-3 py-4 whitespace-nowrap">
-                        <div className="flex items-center px-1">1</div>
+                        <div className="flex items-center px-1 text-xl font-semibold"># 1</div>
                     </td>
                   <td className="px-3 py-4 whitespace-nowrap">
                     <div className="flex items-center">
-                      <div className="flex-shrink-0 h-10 w-10">
-                        <img className="h-10 w-10 rounded-full" src="https://miro.medium.com/freeze/max/400/1*pV9N31p79ImmhIsNR9v_rA.gif" alt="NFT" />
+                      <div className="flex-shrink-0 h-12 w-12">
+                        <img className="h-12 w-12 rounded-full" src="https://miro.medium.com/freeze/max/400/1*pV9N31p79ImmhIsNR9v_rA.gif" alt="NFT" />
                       </div>
                       <div className="ml-4">
                         <div className="text-md font-medium text-gray-900 dark:text-white">
@@ -62,12 +62,12 @@ function LeaderboardUser() {
                   </tr>
                   <tr className='hover:cursor-pointer dark:hover:bg-slate-500 hover:bg-slate-100 transition duration-500'>
                     <td className="px-3 py-4 whitespace-nowrap">
-                        <div className="flex items-center px-1">2</div>
+                        <div className="flex items-center px-1 text-xl font-semibold"># 2</div>
                     </td>
                   <td className="px-3 py-4 whitespace-nowrap">
                     <div className="flex items-center">
-                      <div className="flex-shrink-0 h-10 w-10">
-                        <img className="h-10 w-10 rounded-full" src="https://www.exibart.com/repository/media/2021/09/sothebys-com.brightspotcdn.jpg" alt="NFT" />
+                      <div className="flex-shrink-0 h-12 w-12">
+                        <img className="h-12 w-12 rounded-full" src="https://www.exibart.com/repository/media/2021/09/sothebys-com.brightspotcdn.jpg" alt="NFT" />
                       </div>
                       <div className="ml-4">
                         <div className="text-md font-medium text-gray-900 dark:text-white">

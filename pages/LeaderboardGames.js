@@ -29,7 +29,7 @@ function LeaderboardGames() {
               <tbody className="bg-white dark:bg-slate-600 divide-y divide-gray-200 dark:divide-sky-700">
                   <tr className='group hover:cursor-pointer dark:hover:bg-slate-500 hover:bg-slate-100 transition duration-500'>
                     <td className="px-3 py-4 whitespace-nowrap">
-                        <div className="flex items-center px-1">1</div>
+                        <div className="flex items-center px-1 text-xl font-semibold"># 1</div>
                     </td>
                   <td className="px-3 py-4 whitespace-nowrap">
                     <div className="flex items-center">
@@ -58,7 +58,7 @@ function LeaderboardGames() {
                   </tr>
                   <tr className='hover:cursor-pointer dark:hover:bg-slate-500 hover:bg-slate-100 transition duration-500'>
                     <td className="px-3 py-4 whitespace-nowrap">
-                        <div className="flex items-center px-1">2</div>
+                        <div className="flex items-center px-1 text-xl font-semibold"># 2</div>
                     </td>
                   <td className="px-3 py-4 whitespace-nowrap">
                     <div className="flex items-center">
