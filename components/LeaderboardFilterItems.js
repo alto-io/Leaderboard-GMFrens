@@ -21,6 +21,7 @@ export default function LeaderboardFilterItems(props) {
               <LeaderboardFilterItem
                 filterItem={filterItem}
                 position={index + 1}
+                key={index}
                 clickedFilterItem={() => props.clickedFilterItem(filterItem)}
               ></LeaderboardFilterItem>
             )):''}
