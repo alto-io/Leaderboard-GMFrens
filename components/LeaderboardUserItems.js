@@ -7,7 +7,7 @@ export default function LeaderboardFilterItems(props) {
       {props?.users?.map((item, index) => (
         <LeaderboardUserItem
           user={item}
-          key={index}
+          key={ index }
           position={index + 1}
         ></LeaderboardUserItem>
       ))}
