@@ -16,7 +16,7 @@ export default function LeaderboardFilterItem(props) {
             </div>
             <div className="flex-shrink-0">
               <img
-                className={`w-10 h-10 ${
+                className={`w-10 h-10 object-cover ${
                   !filterItem.gameType && !!filterItem.playerCount
                     ? "rounded-full"
                     : "rounded-md"

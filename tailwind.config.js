@@ -5,7 +5,19 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        'slide': {
+          '0%' : { transform: 'translate3d(0, 0, 0)'},
+          '100%': { transform: 'translate3d(-2002px, 0, 0)' /* The image width */}
+        }
+      },
+      animation: {
+        slide: "slide 25s linear infinite"
+      }
+    },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }

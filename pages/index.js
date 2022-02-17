@@ -7,6 +7,7 @@ import UserService from "../services/UserService";
 import GameService from "../services/GameService";
 import CollectionService from "../services/CollectionService";
 import { StoreContext } from "../store/StoreContext";
+import GameImages from "../components/GameImages";
 
 export default function Home() {
   const { setUsers, setTopCollections, topCollections, setTopGames, topGames } =
@@ -21,6 +22,8 @@ export default function Home() {
   return (
     <div className="p-10">
       <ToggleDark />
+
+      <GameImages filterItems={topGames} />
 
       <div className="p-4 w-full"></div>
       <FilteredTopPlayers
