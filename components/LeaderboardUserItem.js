@@ -5,7 +5,7 @@ export default function LeaderboardUserItem(props) {
   return (
     <div className="flex flex-wrap items-start justify-start gap-6">
       <div className="border border-solid shadow-xl rounded-xl dark:border-none">
-        <div className="flex relative overflow-hidden rounded-xl h-56 w-48">
+        <div className="flex relative overflow-hidden rounded-xl md:h-56 md:w-48 h-48 w-40">
           <img className="w-full object-cover" src={mainImage} />
           {/* Top Element */}
           <div className="flex flex-col absolute bg-white dark:bg-slate-600 w-full h-[14%] top-0 p-1 px-2 pb-2">

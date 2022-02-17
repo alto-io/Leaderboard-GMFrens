@@ -13,7 +13,7 @@ module.exports = {
         }
       },
       animation: {
-        slide: "slide 25s linear infinite"
+        slide: "slide 60s linear infinite"
       }
     },
   },

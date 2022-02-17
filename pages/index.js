@@ -30,14 +30,14 @@ export default function Home() {
         title={"Top players by Game"}
         filterTitle={"Top Games"}
         filterItems={topGames}
-      ></FilteredTopPlayers>
+      />
 
       <div className="p-4 w-full"></div>
       <FilteredTopPlayers
         title={"Top players by Collection"}
         filterTitle={"Top Collections"}
         filterItems={topCollections}
-      ></FilteredTopPlayers>
+      />
 
       <div className="p-4 w-full"></div>
 
