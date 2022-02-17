@@ -8,7 +8,7 @@ export default function GameImages(props) {
         <div className='relative mx-auto max-w-[1430px] h-[400px] flex bg-red-200 overflow-scroll scrollbar-hide'>
             <div className='absolute flex animate-slide'>
                 {/* DISPLAY EXACTLY 7 ELEMENTS */}
-                <div className='bg-gray-100 h-96 rounded-xl overflow-hidden m-[15px]'>
+                <div className='bg-gray-100 h-96 rounded-xl overflow-hidden m-[15px] cursor-pointer'>
                     <img
                         className='bg-green-100 w-64 h-64' 
                         src=""

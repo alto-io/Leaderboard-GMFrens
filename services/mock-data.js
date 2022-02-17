@@ -2,34 +2,34 @@ export const users = [
   {
     mainImage:
       "https://miro.medium.com/freeze/max/400/1*pV9N31p79ImmhIsNR9v_rA.gif",
-    username: "UserName1",
+    username: "Gunnerz",
     nftImage:
       "https://lh3.googleusercontent.com/6eKuLyjVp6nWQES3o_uFIs-of17M3eWkFaQqnq3_ddTkQtXx5vXWAH7R02kpvK0Iy-U6SZ7G_M_0Lhh5P6Rerk10q5PYwuJpbOGEGw=s0",
-    nftName: "NFT",
+    nftName: "Arcadians",
     guid: "8cce3c9e-e464-4dee-a7b6-dad3fa4760bc",
   },
   {
     mainImage:
-      "https://miro.medium.com/freeze/max/400/1*pV9N31p79ImmhIsNR9v_rA.gif",
-    username: "UserName2",
+      "https://935650.smushcdn.com/2437829/wp-content/uploads/2022/01/Bored-Ape-Yacht-Club_Ape_wide.jpg?lossy=1&strip=1&webp=1",
+    username: "Bored King",
     nftImage:
-      "https://lh3.googleusercontent.com/6eKuLyjVp6nWQES3o_uFIs-of17M3eWkFaQqnq3_ddTkQtXx5vXWAH7R02kpvK0Iy-U6SZ7G_M_0Lhh5P6Rerk10q5PYwuJpbOGEGw=s0",
-    nftName: "NFT",
+      "https://brasilnft.art.br/pytsycky/2021/07/unnamed.png",
+    nftName: "Bored Ape",
     guid: "8655c01f-adf0-4974-8689-d4590e3136f0",
   },
   {
     mainImage:
-      "https://miro.medium.com/freeze/max/400/1*pV9N31p79ImmhIsNR9v_rA.gif",
-    username: "UserName3",
+      "https://brasilnft.art.br/pytsycky/2021/10/CryptoPunk-95-mi-PNG.png",
+    username: "CyberPunks",
     nftImage:
-      "https://lh3.googleusercontent.com/6eKuLyjVp6nWQES3o_uFIs-of17M3eWkFaQqnq3_ddTkQtXx5vXWAH7R02kpvK0Iy-U6SZ7G_M_0Lhh5P6Rerk10q5PYwuJpbOGEGw=s0",
-    nftName: "NFT",
+      "https://news.artnet.com/app/news-upload/2021/11/FGHMFCBDIVHB3N6PSB7GNB53NM.png",
+    nftName: "CryptoPunk",
     guid: "580137a1-ddbd-4541-967f-63931df7d225",
   },
   {
     mainImage:
       "https://miro.medium.com/freeze/max/400/1*pV9N31p79ImmhIsNR9v_rA.gif",
-    username: "UserName4",
+    username: "KingOfTheJungle",
     nftImage:
       "https://lh3.googleusercontent.com/6eKuLyjVp6nWQES3o_uFIs-of17M3eWkFaQqnq3_ddTkQtXx5vXWAH7R02kpvK0Iy-U6SZ7G_M_0Lhh5P6Rerk10q5PYwuJpbOGEGw=s0",
     nftName: "NFT",
