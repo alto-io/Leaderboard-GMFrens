@@ -1,8 +1,15 @@
 import React from "react";
 import LeaderboardFilterItem from "./LeaderboardFilterItem";
+import { useState } from "react";
 
 export default function LeaderboardFilterItems(props) {
   const { filterTitle, filterItems } = props;
+  const [activeId, setActiveId] = useState(0);
+
+  const clickedFilter = (filterItem, index) => {
+    props.clickedFilterItem(filterItem)
+    setActiveId(index)
+  }
 
   return (
     <div className="w-full mx-auto mb-10">
@@ -19,10 +26,11 @@ export default function LeaderboardFilterItems(props) {
           <div className="flow-root">
             {filterItems.length ? filterItems?.map((filterItem, index) => (
               <LeaderboardFilterItem
+                active={activeId === index}
                 filterItem={filterItem}
                 position={index + 1}
                 key={index}
-                clickedFilterItem={() => props.clickedFilterItem(filterItem)}
+                clickedFilterItem={() => clickedFilter(filterItem, index)}
               ></LeaderboardFilterItem>
             )):''}
           </div>

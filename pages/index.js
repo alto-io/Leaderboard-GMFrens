@@ -17,7 +17,7 @@ export default function Home() {
     setUsers(UserService.fetchUsers());
     setTopCollections(CollectionService.fetchTopCollections());
     setTopGames(GameService.fetchTopGames());
-  }, []);
+  }, [setTopCollections, setTopGames, setUsers]);
 
   return (
     <div className="p-10">
@@ -27,14 +27,14 @@ export default function Home() {
 
       <div className="p-4 w-full"></div>
       <FilteredTopPlayers
-        title={"Top players by Game"}
+        title={"Top players"}
         filterTitle={"Top Games"}
         filterItems={topGames}
       />
 
       <div className="p-4 w-full"></div>
       <FilteredTopPlayers
-        title={"Top players by Collection"}
+        title={"Top players"}
         filterTitle={"Top Collections"}
         filterItems={topCollections}
       />

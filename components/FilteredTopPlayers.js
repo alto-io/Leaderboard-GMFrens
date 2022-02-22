@@ -8,8 +8,15 @@ export default function FilteredTopPlayers(props) {
   const { title, filterTitle, filterItems } = props;
   const { users } = useContext(StoreContext);
   const [orderedUsers, setOrderedUsers] = useState(users);
+  const [selectedFilterItem, setSelectedFilterItem] = useState({});
+
 
   function handleFilterChange(filterItem) {
+    setSelectedFilterItem(
+      filterItem
+    )
+    console.log(filterItem)
+
     setOrderedUsers(
       filterItem.scores
         .sort((a, b) => b.score - a.score)
@@ -26,7 +33,7 @@ export default function FilteredTopPlayers(props) {
   return (
     <React.Fragment>
       <div className="text-3xl w-full text-center font-semibold my-8">
-        {title}
+        {title} {selectedFilterItem?.gameName || selectedFilterItem?.communityName} 
       </div>
       <div className="flex  flex-col lg:flex-row w-full gap-12">
         <div className="lg:w-1/3 w-full">

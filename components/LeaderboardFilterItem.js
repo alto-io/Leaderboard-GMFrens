@@ -1,17 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function LeaderboardFilterItem(props) {
   const filterItem = props.filterItem;
+  
   return (
     <ul
-      onClick={() => props.clickedFilterItem(filterItem)}
+      onClick={() => {
+        props.clickedFilterItem(filterItem);
+      }}
       role="list"
-      className="divide-y divide-gray-200 dark:divide-gray-700 dark:hover:bg-slate-900 hover:bg-gray-100 cursor-pointer px-8 sm:px-4 group"
+      className={`${props.active ? "text-sky-500 bg-slate-900 divide-y divide-gray-200 dark:divide-gray-700 dark:hover:bg-slate-900 hover:bg-gray-100 hover:text-sky-500  cursor-pointer px-8 sm:px-4 group" 
+      : "divide-y divide-gray-200 dark:divide-gray-700 dark:hover:bg-slate-900 hover:bg-gray-100 hover:text-sky-500  cursor-pointer px-8 sm:px-4 group" }`}
     >
       <div key="1">
         <li className="py-3 sm:py-4">
           <div className="flex items-center space-x-4">
-            <div className="text-gray-900 dark:text-white text-xl">
+            <div className="text-xl">
               # {props.position}
             </div>
             <div className="flex-shrink-0">
@@ -26,7 +30,7 @@ export default function LeaderboardFilterItem(props) {
               />
             </div>
             <div className="flex-1 min-w-0">
-              <p className="text-xl font-medium group-hover:underline text-gray-900 truncate dark:text-white">
+              <p className="text-xl font-medium group-hover:underline truncate ">
                 {filterItem.gameName || filterItem.communityName}
               </p>
               <p className="text-sm text-gray-500 truncate dark:text-gray-400">
