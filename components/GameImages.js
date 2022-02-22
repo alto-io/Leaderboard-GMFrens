@@ -49,38 +49,42 @@ export default function GameImages(props) {
             <div className='absolute flex animate-slide'>
                 {/* DISPLAY EXACTLY 7 ELEMENTS */}
                 {gameArray.map((game, index) => (
-                    <div className='bg-gray-100 h-96 w-64 rounded-xl overflow-hidden m-[15px]' key={index}>
-                        <img
-                            className='bg-black w-64 h-64' 
-                            src={game.gameImage}
-                            alt="gameImage"
-                        />
-                        <div className='flex flex-col h-28 text-black p-2 justify-between'>
-                            <p className='w-full font-bold'>{game.gameName}</p>
-                            <a href={game.gameLink} target="_blank" rel='noreferrer'>
-                            <button className='flex flex-start border w-20 py-1 px-1 text-center rounded-xl'>
-                                <p className='flex mx-auto text-xs font-bold'>Play Now</p>    
-                            </button>
-                            </a>
-                        </div>
+                    <div className='bg-gray-100 h-96 w-64 rounded-xl overflow-hidden m-[15px] group' key={index}>
+                        <a href={game.gameLink} target="_blank" rel='noreferrer'>
+                            <img
+                                className='bg-black w-64 h-64' 
+                                src={game.gameImage}
+                                alt="gameImage"
+                            />
+                            <div className='flex flex-col h-28 text-black p-2 justify-between'>
+                                <p className='w-full font-bold'>{game.gameName}</p>
+                            
+                                <button className='flex flex-start border w-20 py-1 px-1 text-center rounded-xl group-hover:border-gray-200 group-hover:border-2'>
+                                    <p className='flex mx-auto text-xs font-bold'>Play Now</p>    
+                                </button>
+                                
+                            </div>
+                        </a>
                     </div>
                 ))}
                 {/* REPEAT first 5 ELEMENTS */}
-                {gameArray.slice(0, 5).map((game, index) => (
-                    <div className='bg-gray-100 h-96 w-64 rounded-xl overflow-hidden m-[15px]' key={index}>
-                        <img
-                            className='bg-black w-64 h-64' 
-                            src={game.gameImage}
-                            alt="gameImage"
-                        />
-                        <div className='flex flex-col h-28 text-black p-2 justify-between'>
-                            <p className='w-full font-bold'>{game.gameName}</p>
-                            <a href={game.gameLink} target="_blank" rel='noreferrer'>
-                            <button className='flex flex-start border w-20 py-1 px-1 text-center rounded-xl'>
-                                <p className='flex mx-auto text-xs font-bold'>Play Now</p>    
-                            </button>
-                            </a>
-                        </div>
+                {gameArray.slice(0,5).map((game, index) => (
+                    <div className='bg-gray-100 h-96 w-64 rounded-xl overflow-hidden m-[15px] group' key={index}>
+                        <a href={game.gameLink} target="_blank" rel='noreferrer'>
+                            <img
+                                className='bg-black w-64 h-64' 
+                                src={game.gameImage}
+                                alt="gameImage"
+                            />
+                            <div className='flex flex-col h-28 text-black p-2 justify-between'>
+                                <p className='w-full font-bold'>{game.gameName}</p>
+                            
+                                <button className='flex flex-start border w-20 py-1 px-1 text-center rounded-xl group-hover:border-gray-200 group-hover:border-2'>
+                                    <p className='flex mx-auto text-xs font-bold'>Play Now</p>    
+                                </button>
+                                
+                            </div>
+                        </a>
                     </div>
                 ))}
             </div>
